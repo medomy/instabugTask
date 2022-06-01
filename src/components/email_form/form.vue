@@ -145,6 +145,7 @@ export default {
 
         .activebtn {
             cursor: pointer;
+            background-color: #333;
         }
 
         input {

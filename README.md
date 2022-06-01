@@ -1,5 +1,7 @@
 # instabug_task
 
+- delivering the task requested for the instabug internship opportunity
+
 ## Project setup
 ```
 npm install
@@ -14,6 +16,15 @@ npm run serve
 ```
 npm run build
 ```
+
+### end to end cypress test
+```
+npm run test
+```
+
+### contact me:
+- LinkedIn link : [LinkdIn](https://www.linkedin.com/in/mohamed-abdallah-72a951225/).
+- email : medomy1997@gmail.com
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

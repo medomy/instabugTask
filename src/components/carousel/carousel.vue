@@ -43,7 +43,8 @@ export default {
                     title: 'Secure Crash Reporting With Real-Time Alerts'
                 },
             ],
-            idCounter: 1
+            idCounter: 1,
+            
         }
     },
     methods: {
@@ -53,7 +54,7 @@ export default {
             })
         },
         changeCarouselTime() {
-            setInterval(() => {
+            return setInterval(() => {
                 this.idCounter = this.idCounter <= this.images.length ? this.idCounter : 1;
                 this.images.forEach((img) => {
                     img.isDisplay = img.id === this.idCounter;
@@ -64,6 +65,9 @@ export default {
     },
     mounted(){
         this.changeCarouselTime();
+    },
+    beforeUnmount(){
+        clearInterval(this.changeCarouselTime());
     }
 
 }
