@@ -102,7 +102,7 @@ export default {
             transition: all 0.5s 0.5s ease-in-out;
 
             img {
-                width: 100%;
+                width: 75%;
                 display: block;
             }
 
