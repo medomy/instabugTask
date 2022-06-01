@@ -21,7 +21,8 @@ npm run build
 ```
 npm run test
 ```
-
+### deployed link:
+- link : [deployed app](https://medomy.github.io/instabugTask/#/login).
 ### contact me:
 - LinkedIn link : [LinkdIn](https://www.linkedin.com/in/mohamed-abdallah-72a951225/).
 - email : medomy1997@gmail.com
